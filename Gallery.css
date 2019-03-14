@@ -1,0 +1,836 @@
+/*==========Genral Rules ==============*/
+
+body{
+    padding: 0;
+   
+
+}
+
+
+.padding-top{
+    padding-top:  50px
+}
+
+.margin-top{
+    margin-top: 60px
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+     text-decoration: none !important;
+}
+
+*{
+    transition: transform 1s, opacity 1s, color .5s
+}
+
+h1, h2, h3 ,h4{
+    font-weight: bold !important;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden
+}
+
+.margin0{
+    margin-top: -20px
+}
+
+
+.btn-scroll{
+    position: fixed;
+    right:15px;
+    bottom:30px;
+    background-color:#ff9f1c;
+    color:white;
+    border:none;
+    transition: background 1s;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1
+}
+.btn-scroll:hover{
+    background: #e65100
+}
+
+h2{
+    font-size: 35px !important;
+    font-weight: bold !important;
+}
+/*=============slider========*/
+
+.navbar-left{
+    color: aliceblue;
+    font-size: 30px;
+    padding:5px;
+    font-weight:  !important;
+    text-transform: capitalize
+}
+
+.navbar-left span{
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px
+}
+
+@media screen and (max-width:768px){
+    .navbar-left{
+        margin-top: -50px}
+    .collapse{
+        background: #ff9f1c;
+        opacity: 1
+        
+    }
+}
+
+.navbar-left span:hover{
+   opacity: .5 !important;
+    cursor: pointer
+}
+
+    .navbar-toggle{
+        background: #ff9f1c !important;
+        border-color: aliceblue !important
+    }
+
+#navbar{
+    opacity: .8 !important;
+    height: 70px !important;
+    padding: 10px;
+    background: #ff9f1c;
+ 
+}
+
+#navbar li a{
+       color: aliceblue !important;
+    transition: color 1s
+}
+
+#navbar li a:hover{
+    color: #333 !important
+}
+
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  
+  
+
+.indic2 li{
+    background: #0277bd !important;
+    border-color: black  !important;
+} 
+
+/*--------------------------------------carousel-------------------------------*/
+
+
+
+.carsa{
+    width: 25px !important;
+}
+
+.kos1{
+    background: rgba(0,0,0,1);
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    font-size: 35px;
+    padding: 15px 10px;
+}
+
+.kos1:hover , .kos2:hover{
+    background: #ff9f1c;
+    color: #000;
+}
+
+.kos2{
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    font-size: 35px;
+    background: rgba(0,0,0,1);
+    padding: 15px 10px;
+}
+
+.imn{
+    height: 60px;
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    left: -99%;
+    top: 24%;
+    display: none
+}
+.imn img{
+    width: 100%;
+    height: auto
+}
+
+.kos1:hover .imn img{
+    display: block!important
+}
+
+
+
+.conv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.gh{
+    background: #333 !important;
+    color: aqua !important;
+    
+}
+
+.cd{
+    direction: rtl;
+   
+}
+
+.fd{
+   
+    word-wrap: break-word;
+     direction: rtl;
+    font-size: 12px !important;
+    color: aliceblue
+    
+}
+
+
+.fdd{
+  
+    word-wrap: break-word;
+    font-size: 12px !important;
+    color: aliceblue
+}
+
+img{
+    width: 100%;
+    height: auto
+}
+/*==========section=====*/
+
+.section {
+    background: #fff;
+    margin-top: -30px;
+    color: aliceblue !important;
+    padding-bottom: 50px
+    
+}
+
+.section div{
+    margin-top: 30px
+}
+
+.section h2{
+    text-align: center;
+    color: #333 !important
+  
+}
+
+.section h2::after{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #333;
+    margin:10px auto  ;
+    display: block;
+}
+
+.section h3 a{
+    color: #333;
+     font-size: 18px
+}
+
+.section h3 a:hover{
+    color: #333;
+   
+}
+
+.section p{
+    color: #333
+} 
+
+img{
+    width: 100%;
+    height: auto
+}
+/*==========section=====*/
+.articale{
+    background: url(images/1.jpg) no-repeat fixed ;
+    height: 500px;
+    width: 100%;
+    color: aliceblue;
+    background-size: cover;
+    position: relative;
+     
+}
+
+
+
+@media screen and (max-width:991px){
+    .articale{
+        height: 550px
+    }
+}
+@media screen and (max-width:768px){
+    .articale{
+        height: 880px
+    }
+}
+.articale .overly{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5); 
+    
+    
+}
+
+
+.articale h2{
+    padding-top: -30px;
+    margin-bottom: 12px;
+    letter-spacing: 1px
+}
+
+.articale .h2::after{
+    content: "";
+    height: 2px;
+    width: 250px;
+    background: #ff9f1c;
+    margin:10px auto  ;
+    display: block;
+}
+
+.articale div{
+    margin-top: 50px
+}
+
+.articale i{
+    font-size: 30px;
+    background-color: #ff9f1c;
+    border: 1px solid #000;
+    padding: 18px;
+    border-radius: 50%;
+    color: #000;
+    
+}
+
+.articale a i:hover{
+    transform: scale(1.1,1.1);
+    background: #000;
+    color: #ff9f1c;
+    border-color: #ff9f1c
+}
+
+.articale a{
+    color: aliceblue;
+}
+
+.articale a:hover{
+    color: #ff9f1c;
+}
+
+
+/*================our Team=========*/
+.ourteam{
+    background: #fdfffc
+}
+
+.team h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 2 !important;
+    color: #444 !important;
+    letter-spacing: 3px;
+    font-weight: bold !important
+}
+
+
+.team img{
+    border: 1px solid #e5e5e6;
+    padding: 5px
+}
+
+
+.respon {
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 5px;
+  bottom: 50%;
+  left: 5px;
+  right: 50%;
+  height: 98%;
+  width: 96%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F8F8F8;
+}
+
+.respon:hover .overlay1 {
+  opacity: .8;
+}
+
+.text a{
+  color: #000 !important;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-weight: bold
+}
+
+.text a:hover{
+    color: #ff9f1c!important
+}
+
+.after::after{
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: #ff9f1c;
+    margin:10px auto  ;
+    display: block;
+}
+
+
+/*================ Brand =========*/
+
+.brand{
+    margin-top: -70px;
+    background: #fff;
+    padding-bottom: 20px;
+    font-size: 17px;
+    background: #2a324b
+}
+ 
+.brand h3{
+    color: #fff !important;
+    font-size: 40px
+}
+
+.brand h3::after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background: #ff9f1c;
+    margin:15px auto  ;
+    display: block;
+    
+}
+
+.brand h3 +p{
+    letter-spacing: 2px
+}
+
+.brand div{
+    margin-top: 70px;
+    text-align: left;
+     color: #fff !important;
+}
+
+
+/*==========Blog=======*/
+
+.blog{
+    background: url(images/smile.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    color: #BCD8DF;
+    font-size: 18px
+    
+}
+.blog h2{
+ margin-top: 80px;
+color: aliceblue
+}
+
+.blog div{
+  padding-bottom: 40px
+}
+
+.blog a{
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 1px  
+}
+
+.blog a:hover{
+    color: #ff9f1c
+}
+
+.blog .overly3{
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #202833;
+    opacity: .8
+}
+
+
+
+
+/*============ slider 2=====*/
+.img-slider{
+    width: 90px;
+    height: 90px;
+    margin: auto
+}
+
+.slider2{
+    background:#fff;
+    height: auto;
+    width: 100%;
+    margin-top: -20px
+}
+
+.slider2 h2{
+    font-size: 30px;
+    color: #333 !important;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.slider2 h3 +p{
+   font-size: 17px !important
+}
+
+.slider2 span{
+    color:  #ff9f1c
+}
+
+.slider2 h3{
+    font-size: 20px;
+    color: #333 !important
+}
+
+.slider2 .item{
+  margin-bottom: 70px;
+  animation-duration: 2s;
+    text-align:  center justify
+  
+}
+
+
+.indic2 li{
+    background: #ff9f1c!important;
+    padding: 5px;
+    border-color: #ff9f1c !important;
+}
+
+/*==========Footer======*/
+
+.footer{
+  
+    background: #011627;
+    padding-top: 50px
+}
+
+.footer a{
+    color: aliceblue
+}
+
+.footer a:hover{
+    color: #ff9f1c
+}
+
+.img-footer{
+    width: 80px;
+    height: 65px;
+    float: left
+}
+.ul{
+    
+}
+.img-footer img{
+    width: 100%;
+    height: auto
+}
+
+.a1-footer{
+    margin-bottom: 60px;
+    position: relative;
+    left: 20px
+    
+}
+
+
+
+.ul1-footer{
+    padding-left: -30px;
+    margin-top: -20px;
+    margin-bottom: 50px
+}
+.ul1-footer ul h3{
+    color: aliceblue;
+    margin-bottom:30px
+}
+.ul1-footer ul li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333
+}
+
+
+
+.ul2-footer{
+    margin-top: -19px;
+    color: aliceblue;
+    margin-bottom: 50px
+}
+
+.ul3 div{
+    margin-bottom: 15px
+}
+
+.ul3 h3{
+    color: aliceblue;
+    margin-top: 1px;
+    padding-bottom:  15px;
+    padding-left: 10px
+}
+
+.ul3 div img{
+    width: 60px;
+    height: 60px
+}
+
+
+.ul3 div img:hover{
+    opacity: .5
+}
+
+/*========row2=======*/
+
+.row2-footer{
+    background: #011638;
+    color: aliceblue;
+    padding: 
+}
+
+.row2-footer ul{
+    float: right
+}
+
+.row2-footer .div{
+    margin-bottom: 30px;
+    padding-top: 20px
+}
+
+.row2-footer li{
+    float: left;
+    margin-left: 20px
+}
+
+.row2-footer li span{
+    margin-left: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================slider 1=============*/
+.bg1{
+background: url(images/3.jpg) fixed center  no-repeat;
+height: 665px
+}
+
+
+ .btn1{
+    padding: 15px 40px;
+    text-align: center;
+    margin-right: 30px; 
+     margin-top: 20px;
+     background: #ff9f1c !important;
+     border-color: aliceblue  !important
+}
+
+ .btn2{
+    padding: 15px 40px;
+    text-align: center;
+    margin-top: 20px;
+    background:none !important;
+     transition: background 1s;
+     border-color: aliceblue !important;
+    
+}
+
+.btn2:hover{
+    background: #ff9f1c!important;
+    
+}
+
+
+.caption1{
+    top: 40%
+}
+
+
+.bg2{
+    background: url(images/2.jpg) fixed center no-repeat;
+    background-size: cover;
+    height: 665px
+}
+ .caption2{
+    position: absolute;
+    top: 40%;
+    left: 12% !important;
+     text-align: left !important;
+     color: aliceblue
+
+}
+
+h1{
+    font-size: 60px !important
+}
+
+.caption2 p{
+    font-size: 19px
+}
+
+
+
+
+.bg3{
+    background: url(images/4.jpg) fixed center no-repeat;
+    background-size: cover;
+    height: 665px
+}
+
+ .caption3{
+    position: absolute;
+    top: 40%;
+    left: 12% !important;
+     text-align: left !important;
+     color: aliceblue
+
+}
+
+h1{
+    font-size: 60px !important
+}
+
+.caption2 p{
+    font-size: 19px
+}
+
+@media screen and (max-width:991px){
+    .bg3, .bg2,.bg1{
+        height: 440px
+    }
+    .caption3,.caption2,.caption1{
+        top: 30%
+    }
+    h1{
+        font-size: 30px!important
+    }
+    .caption3 p, .caption2 p,.caption1 p{
+        font-size: 14px
+    }
+    .btn2, .btn1{
+        margin:10px 5px 15px
+    }
+}
+
+
+
+
+
+
+
+/*=========================animations================*/
+ 
+.fadeIn1{
+    -webkit-animation-duration: .5s !important;
+    -moz-animation-duration:  .5s  !important;
+    animation-duration:  .5s  !important
+}
+
+.fadeIn2{
+    -webkit-animation-duration: 1.5s !important;
+    -moz-animation-duration:  1.5s !important;
+    animation-duration:  1.5s !important
+}
+ 
+.fadeIn3{
+    -webkit-animation-duration: 2s !important;
+    -moz-animation-duration: 2s !important;
+    animation-duration: 2s !important
+} 
+
+
+.fadeup{
+    
+    animation-duration: 3s !important
+}
+
+
+
+/*==== about us ========*/
+
+#about-us { background-color: #2a324b !important;padding-bottom: 50px 0;color: aliceblue!important}
+
+#about-us h2 { margin-top: 0; color:#fff; }
+
+#about-us .lead { font-size: 16px; margin-bottom: 10px; } 
+
+#about-us h1 { margin-bottom: 30px; } 
+
+.progress-title{ font-size: 16px; font-weight: 700; color: #fff; margin: 0 0 10px 0; }
+
+.progress{ height: 20px; line-height: 15px; border-radius: 5px; background: #f0f0f0; margin-bottom: 30px; box-shadow: none; overflow: visible; } 
+
+.progress-bar{ position: relative; border-radius: 0; opacity: 0; } 
+
+.progress .progress-value{ display: block; font-size: 13px; color: #fff; position: absolute; top: 0; right: 8px; }
+
+@-webkit-keyframes animate-positive{ 0% { width: 0%; } }
+
+@keyframes animate-positive{ 0% { width: 0%; } }
+
+h2, h3,h4{
+    color: aliceblue !important
+}
