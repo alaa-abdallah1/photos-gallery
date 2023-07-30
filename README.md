@@ -7,7 +7,7 @@ This is a single-page website featuring a photo gallery. The website consists of
 
 ## Screenshots
 
-![alaa-abdallah1 github io_online-courses_](https://github.com/alaa-abdallah1/photos-gallery/assets/56931924/127e72e8-2b8e-49b8-862a-e6c0225723c9)
+![alaa-abdallah1 github io_Gallary_](https://github.com/alaa-abdallah1/photos-gallery/assets/56931924/f307379d-f106-4249-add2-1a7d15e15fde)
 
 ## Installation
 
